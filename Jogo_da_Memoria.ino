@@ -1,5 +1,4 @@
-// C++ code
-//
+// Jogo da Memória
 
 int n = 0;
 

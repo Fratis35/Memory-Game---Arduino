@@ -19,14 +19,14 @@ O projeto foi desenhado para utilizar quatro canais independentes de interação
 
 | Componente | Função | Pino Arduino |
 | :--- | :--- | :--- |
-| LED 1 | Indicador Visual 1 | Digital 9 |
-| LED 2 | Indicador Visual 2 | Digital 10 |
-| LED 3 | Indicador Visual 3 | Digital 11 |
-| LED 4 | Indicador Visual 4 | Digital 12 |
-| Botão 1 | Entrada do LED 1 | Digital 2 |
-| Botão 2 | Entrada do LED 2 | Digital 3 |
-| Botão 3 | Entrada do LED 3 | Digital 4 |
-| Botão 4 | Entrada do LED 4 | Digital 5 |
+| LED Verde | Indicador Visual 1 | Digital 9 |
+| LED Vermelho | Indicador Visual 2 | Digital 10 |
+| LED Amarelo | Indicador Visual 3 | Digital 11 |
+| LED Azul | Indicador Visual 4 | Digital 12 |
+| Botão 1 | Entrada do LED Verde | Digital 2 |
+| Botão 2 | Entrada do LED Vermelho | Digital 3 |
+| Botão 3 | Entrada do LED Amarelo | Digital 4 |
+| Botão 4 | Entrada do LED Azul | Digital 5 |
 
 ## Simulação no Tinkercad
 
@@ -36,7 +36,7 @@ O projeto foi modelado e testado no ambiente virtual do Tinkercad. Você pode vi
 
 ### Esquema do Circuito
 
-![Esquema Elétrico do Projeto](circuito.png)
+![Esquema Elétrico do Projeto](Circuito.png)
 ## Funcionamento do Código
 
 1. **Inicialização**: O jogo executa uma animação piscando todos os LEDs para indicar o início da partida.
